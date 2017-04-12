@@ -1,6 +1,8 @@
 NAME 		= libmy.a
 
 SRC			= src/my_getnbr.c \
+			src/get_color.c \
+			src/my_find_prime_sup.c \
 			src/my_is_prime.c \
 			src/my_isneg.c \
 			src/my_power_rec.c \
@@ -13,6 +15,8 @@ SRC			= src/my_getnbr.c \
 			src/my_showmem.c \
 			src/my_showstr.c \
 			src/my_sort_int_tab.c \
+			src/my_sort_params.c \
+			src/my_sort_wordtab.c \
 			src/my_square_root.c \
 			src/my_str_isalpha.c \
 			src/my_str_islower.c \
@@ -33,7 +37,8 @@ SRC			= src/my_getnbr.c \
 			src/my_strndup.c \
 			src/my_strstr.c \
 			src/my_strupcase.c \
-			src/my_swap.c
+			src/my_swap.c \
+			src/sum_params.c
 
 INCLDIR		= include/
 

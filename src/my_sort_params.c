@@ -1,6 +1,6 @@
 #include "my.h"
 
-void my_swap(char *v[], int a, int b)
+void my_swap_ptr(char *v[], int a, int b)
 {
 	char *tmp;
 
@@ -22,7 +22,7 @@ char **sort_params(int argc, char **argv)
 		{
 			if (my_strcmp(argv[i], argv[i + 1]) > 0)
 			{
-				my_swap(argv, i, i + 1);
+				my_swap_ptr(argv, i, i + 1);
 				sorted = 0;
 			}
 			i += 1;
