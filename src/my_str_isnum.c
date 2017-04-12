@@ -1,3 +1,5 @@
+#include "my.h"
+
 int my_str_isnum(char *str)
 {
 	int i;

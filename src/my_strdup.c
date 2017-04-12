@@ -1,7 +1,6 @@
 #include <stdlib.h>
 
-char *my_strcpy(char *, char *);
-int my_strlen(char *);
+#include "my.h"
 
 char *my_strdup(char *src)
 {

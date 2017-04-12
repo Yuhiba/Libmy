@@ -1,4 +1,4 @@
-int my_putstr(char*);
+#include "my.h"
 
 int my_show_wordtab(char **tab)
 {

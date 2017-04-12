@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
-int my_strlen(char *);
-char *my_strncpy(char *, char *, int);
+#include "my.h"
+
 
 char *my_strndup(char *src, int nb)
 {

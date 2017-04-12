@@ -1,4 +1,4 @@
-int my_putchar(char);
+#include "my.h"
 
 int my_putstr(char *str)
 {

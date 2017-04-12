@@ -1,5 +1,4 @@
-int my_strlen(char *);
-int my_strncmp(char *, char *, int);
+#include "my.h"
 
 char *my_strstr(char *str, char *to_find)
 {
@@ -7,7 +6,7 @@ char *my_strstr(char *str, char *to_find)
 
 	i = 0;
 	while (str[i] != '\0')
-	{	
+	{
 		if (!my_strncmp(str + i, to_find, my_strlen(to_find)))
 			return str + i;
 		i += 1;

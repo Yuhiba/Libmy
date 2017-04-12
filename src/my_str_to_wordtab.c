@@ -1,7 +1,6 @@
 #include <stdlib.h>
 
-char *my_strndup(char *, int);
-int my_strlen(char *);
+#include "my.h"
 
 int is_alphanumeric(char c)
 {
@@ -14,14 +13,14 @@ int word_len(char *str)
 {
 	int len;
 	int i;
-	
+
 	len = 0;
 	i = 0;
 	while (str[i] != '\0')
 	{
 		if (is_alphanumeric(str[i]))
 			len += 1;
-		if (!is_alphanumeric(str[i])) 
+		if (!is_alphanumeric(str[i]))
 			return len;
 		i += 1;
 	}
@@ -32,12 +31,12 @@ int count_words(char *str)
 {
 	int i;
 	int words;
-	
+
 	i = 0;
 	words = 0;
 	while (str[i] != '\0')
 	{
-		if (is_alphanumeric(str[i]) && !is_alphanumeric(str[i + 1])) 
+		if (is_alphanumeric(str[i]) && !is_alphanumeric(str[i + 1]))
 			words += 1;
 		i += 1;
 	}

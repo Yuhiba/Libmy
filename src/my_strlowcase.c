@@ -1,3 +1,5 @@
+#include "my.h"
+
 char *my_strlowcase(char *str)
 {
 	int i;

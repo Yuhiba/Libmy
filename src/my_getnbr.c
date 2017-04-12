@@ -1,4 +1,4 @@
-int my_putchar(char);
+#include "my.h"
 
 int my_getnbr(char *str)
 {
@@ -14,14 +14,14 @@ int my_getnbr(char *str)
 		if (str[i] == '-')
 			negative_input = 1;
 		else
-			negative_input = 0;		
+			negative_input = 0;
 		i += 1;
 	}
 	while (str[i] >= '0' && str[i] <= '9')
 		{
 			nb = 10 * nb + (str[i] - '0');
 			i += 1;
-		} 
+		}
 	if (negative_input)
 		nb = -nb;
 	return nb;

@@ -1,4 +1,4 @@
-int my_strlen(char *);
+#include "my.h"
 
 char *my_strncat(char *dest, char *src, int nb)
 {

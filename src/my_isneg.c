@@ -1,4 +1,4 @@
-int my_putchar(char);
+#include "my.h"
 
 void my_isneg(int n)
 {

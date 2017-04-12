@@ -1,8 +1,6 @@
 #include <unistd.h>
 
-int my_putnbr_base(int, char *);
-int my_putchar(char);
-int my_putstr(char *);
+#include "my.h"
 
 void print_adress_ligne(int i)
 {

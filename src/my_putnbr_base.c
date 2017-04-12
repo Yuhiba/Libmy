@@ -1,7 +1,6 @@
 #include <unistd.h>
 
-int my_putchar(char );
-int my_strlen(char *);
+#include "my.h"
 
 int my_putnbr_base_rec(int nbr, char *base, size_t base_len)
 {

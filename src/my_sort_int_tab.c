@@ -1,6 +1,6 @@
-int my_swap(int *, int *);
+#include "my.h"
 
-void my_sort_int_tab(int *tab, int size) 
+void my_sort_int_tab(int *tab, int size)
 {
 	int i;
 

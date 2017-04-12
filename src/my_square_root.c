@@ -1,4 +1,4 @@
-int my_power_rec(int, int);
+#include "my.h"
 
 int my_square_root(int nb)
 {
@@ -9,7 +9,7 @@ int my_square_root(int nb)
 		nb = 0;
 	while (i < nb)
 	{
-		if (my_power_rec(i, 2) == nb) 
+		if (my_power_rec(i, 2) == nb)
 			return i;
 		i += 1;
 	}

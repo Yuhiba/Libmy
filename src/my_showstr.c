@@ -1,7 +1,6 @@
 #include <unistd.h>
 
-int my_putnbr_base(int, char *);
-int my_putchar(char c);
+#include "my.h"
 
 void print_non_printable(char c)
 {
@@ -14,7 +13,7 @@ void print_non_printable(char c)
 int my_showstr(char *str)
 {
 	int i;
-	
+
 	i = 0;
 	while (str[i] != '\0')
 	{

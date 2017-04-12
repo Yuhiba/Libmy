@@ -1,4 +1,4 @@
-int my_strlen(char *str);
+#include "my.h"
 
 char *my_revstr(char *str)
 {

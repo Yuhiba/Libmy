@@ -1,3 +1,5 @@
+#include "my.h"
+
 int my_power_rec(int nb, int power)
 {
 	if (power < 0)
