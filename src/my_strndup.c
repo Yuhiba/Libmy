@@ -2,7 +2,6 @@
 
 #include "my.h"
 
-
 char *my_strndup(char *src, int nb)
 {
 	char *dest;

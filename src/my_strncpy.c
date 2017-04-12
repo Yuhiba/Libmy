@@ -1,6 +1,5 @@
 #include "my.h"
 
-
 char *my_strncpy(char *dest, char *src, int nc)
 {
 	int i;
