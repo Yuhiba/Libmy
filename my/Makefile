@@ -38,7 +38,17 @@ SRC			= src/my_getnbr.c \
 			src/my_strstr.c \
 			src/my_strupcase.c \
 			src/my_swap.c \
-			src/sum_params.c
+			src/sum_params.c \
+			src/my_params_in_list.c \
+			src/my_list_size.c \
+			src/my_rev_list.c \
+			src/my_apply_on_list.c \
+			src/my_apply_on_eq_in_list.c \
+			src/my_find_elm_eq_in_list.c \
+			src/add_node.c \
+			src/show_list.c
+
+
 
 INCLDIR		= include/
 
